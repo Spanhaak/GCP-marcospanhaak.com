@@ -2,10 +2,28 @@
   width: device-width;
 }
 body {
-  font-family: "Open Sans", sans-serif;
-  background-image: url("beach.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  font-family: "Open Sans", sans-serif; /* Font used in the page body */
+  background-image: url("beach.jpg"); /* Photo from my view used as background*/
+  background-position: center center; /* Make the photo responsive in any format*/
+  background-repeat: no-repeat; /* Make the photo responsive in any format*/
+  background-attachment: fixed; /* Make the photo responsive in any format*/
+  background-size: cover; /* Make the photo responsive in any format*/
+}
+
+/* This CSS part is used for the Main page name Author */
+.body_top {
+  padding-top: 10rem; /* Start the blow 10rem from the top */
+}
+.body_overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Opacity of the block */
+  padding-top: 1rem; /* Used to vertical center align the name */
+  align-content: center; /* Used to center align the name */
+  padding-bottom: 1rem; /* Used to center align the name */
+  position: fixed; /* This so the box with the name does not move */
+  width: 100%; /* Make the box use the full screen */
+  margin-left: -10px; /* Make the box use the full screen, also taken care of the left margins */
+  text-indent: 2em; /* Indent the text a bit from the left */
+}
+.body_bottom {
+  padding-top: 1rem; /* A bit of room between the name box and the rest */
 }
