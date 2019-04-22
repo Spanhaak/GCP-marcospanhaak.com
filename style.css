@@ -51,6 +51,7 @@ body {
   align-content: center; /* Used to center align the name */
   padding-bottom: 1rem; /* Used to center align the name */
 
+  /* Configuring the name animation */
   position: relative;
   animation: right 3s;
   -moz-animation: right 3s; /* Firefox */
