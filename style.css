@@ -132,7 +132,7 @@ body {
   #right {
     padding-top: 2rem; /* Used to vertical center align the name */
     margin-left: -20px;
-    font-size: 3rem;
+    font-size: 2rem;
     color: rgb(187, 121, 41);
     overflow: hidden;
     align-content: center; /* Used to center align the name */
@@ -146,7 +146,7 @@ body {
   }
   @keyframes right {
     from {
-      left: 1080px;
+      left: 400px;
     }
     to {
       left: 0px;
@@ -154,7 +154,7 @@ body {
   }
   @-moz-keyframes right {
     from {
-      left: 1080px;
+      left: 400px;
     }
     to {
       left: 0px;
@@ -162,7 +162,7 @@ body {
   }
   @-webkit-keyframes right {
     from {
-      left: 1080px;
+      left: 400px;
     }
     to {
       left: 0px;
