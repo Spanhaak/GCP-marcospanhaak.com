@@ -122,9 +122,9 @@ body {
     font-size: 2rem;
     font-weight: bold;
     float: left;
-    width: 100px;
+    width: 200px;
     overflow: hidden;
-    height: 4rem;
+    height: 3rem;
     align-content: center; /* Used to center align the name */
     padding-bottom: 1rem; /* Used to center align the name */
   }
