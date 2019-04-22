@@ -99,7 +99,7 @@ body {
 
   /* This CSS part is used for the Main page name Author */
   .body_top {
-    padding-top: 5rem; /* Start the blow 10rem from the top */
+    padding-top: 4rem; /* Start the blow 10rem from the top */
   }
   .body_overlay {
     background-color: rgba(0, 0, 0, 0.6); /* Opacity of the block */
@@ -122,7 +122,7 @@ body {
     font-size: 2rem;
     font-weight: bold;
     float: left;
-    width: 220px;
+    width: 100px;
     overflow: hidden;
     height: 4rem;
     align-content: center; /* Used to center align the name */
