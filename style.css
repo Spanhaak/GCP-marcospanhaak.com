@@ -81,3 +81,103 @@ body {
     left: 0px;
   }
 }
+
+/* iPhone < 5: */
+@media screen and (device-aspect-ratio: 2/3) {
+}
+
+/* iPhone 5:*/
+@media screen and (device-aspect-ratio: 40/71) {
+  body {
+    font-family: "Open Sans", sans-serif; /* Font used in the page body */
+    background-image: url("beach.jpg"); /* Photo from my view used as background*/
+    background-position: center center; /* Make the photo responsive in any format*/
+    background-repeat: no-repeat; /* Make the photo responsive in any format*/
+    background-attachment: fixed; /* Make the photo responsive in any format*/
+    background-size: cover; /* Make the photo responsive in any format*/
+  }
+
+  /* This CSS part is used for the Main page name Author */
+  .body_top {
+    padding-top: 10rem; /* Start the blow 10rem from the top */
+  }
+  .body_overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Opacity of the block */
+    padding-top: 1rem; /* Used to vertical center align the name */
+    align-content: center; /* Used to center align the name */
+    padding-bottom: 1rem; /* Used to center align the name */
+    position: fixed; /* This so the box with the name does not move */
+    width: 105%; /* Make the box use the full screen */
+    margin-left: -10px; /* Make the box use the full screen, also taken care of the left margins */
+    margin-right: -20px; /* Make the box use the full screen, also taken care of the left margins */
+    text-indent: 2em; /* Indent the text a bit from the left */
+  }
+  .body_bottom {
+    padding-top: 1rem; /* A bit of room between the name box and the rest */
+  }
+
+  /* Setup the name */
+  #left {
+    padding-top: 2rem; /* Used to vertical center align the name */
+    font-size: 3rem;
+    font-weight: bold;
+    float: left;
+    width: 220px;
+    overflow: hidden;
+    height: 5rem;
+    align-content: center; /* Used to center align the name */
+    padding-bottom: 1rem; /* Used to center align the name */
+  }
+
+  #right {
+    padding-top: 2rem; /* Used to vertical center align the name */
+    margin-left: -20px;
+    font-size: 3rem;
+    color: rgb(187, 121, 41);
+    overflow: hidden;
+    align-content: center; /* Used to center align the name */
+    padding-bottom: 1rem; /* Used to center align the name */
+
+    /* Configuring the name animation */
+    position: relative;
+    animation: right 3s;
+    -moz-animation: right 3s; /* Firefox */
+    -webkit-animation: right 3s; /* Safari and Chrome */
+  }
+  @keyframes right {
+    from {
+      left: 1080px;
+    }
+    to {
+      left: 0px;
+    }
+  }
+  @-moz-keyframes right {
+    from {
+      left: 1080px;
+    }
+    to {
+      left: 0px;
+    }
+  }
+  @-webkit-keyframes right {
+    from {
+      left: 1080px;
+    }
+    to {
+      left: 0px;
+    }
+  }
+}
+
+/* iPhone 6:*/
+@media screen and (device-aspect-ratio: 375/667) {
+}
+
+/* iPhone 6 Plus:*/
+@media screen and (device-aspect-ratio: 16/9) {
+}
+
+/* iPad:*/
+@media screen and (device-aspect-ratio: 3/4) {
+}
